@@ -1,0 +1,6 @@
+Czesc Eksperymentalna
+Celem zadania jest odwrocenie minimalnej ilosci kart, ktora pozwoli na weryfikacje zalozen opisu sytuacji.
+Przykladowy scenariusz:
+Jan oznajmil swoim znajomym: "Jak przychodzisz z rodzina na wesele, musisz dac jako prezent wiecej niz 200 zl"
+Kazda karta reprezentuje znajomego Jana. Na jednej stronie jest napisane czy idzie z rodzina czy nie, a na drugiej jaki prezent dal. Zdecyduj, ktore karty musisz odwrocic, zeby zweryfikowac, ktorzy znajomi byli fair wobec Jana a ktorzy nie.
+Nie odwracaj wiecej kart niz jest to wymagane.

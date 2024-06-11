@@ -1,1 +1,5 @@
-tekst wprowadzający
+W tej czesci zostanie Ci zaprezentowanych 5 kart.
+Dwie pierwsze karty beda zawierac instrukcje dotyczace nieodwracania ich - w takim przypadku kliknij lewym przyciskiem myszy wyswietlony przycisk "nie odwracaj". Na kazda karte masz 4 sekundy.
+Trzy kolejne karty beda instruowac Cie do odwrocenia karty - kliknij wyswietlony przycisk "odwroc".
+Po kazdej karcie nastapi przerwa - nacisnij spacje, gdy bedziesz gotowy przejsc do nastepnej karty. (ekran czekania).
+Po czesci treningowej przejdziemy do czesci eksperymentalnej - Twoim zadaniem bedzie odwracanie kart w podobny sposob, ale na podstawie przedstawionych zasad, a nie napisu na karcie.

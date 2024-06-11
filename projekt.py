@@ -1,52 +1,6 @@
-from psychopy import visual, core, event, gui
+from psychopy import visual, core, event, gui, monitors
 import os
 import random
-# Create a window
-win = visual.Window(size=(800, 600), color=(1, 1, 1), units="pix")
-
-colors = ["blue", "green", "red"]
-
-# Define button dimensions and positions
-button_width = 100
-button_height = 50
-spacing = 20
-
-# Define card dimensions and position
-card_width = 200
-card_height = 300
-card_pos = (0, 0)
-
-# Calculate the positions for the buttons in the bottom right corner
-flip_button_pos = (win.size[0] / 2 - button_width / 2 - spacing, -win.size[1] / 2 + button_height / 2 + spacing)
-dont_flip_button_pos = (
-win.size[0] / 2 - 3 * button_width / 2 - 2 * spacing, -win.size[1] / 2 + button_height / 2 + spacing)
-
-# Create the card
-card = visual.Rect(win=win, width=card_width, height=card_height, fillColor=colors[0], lineColor=colors[0],
-                   pos=card_pos)
-cardlabel = visual.TextStim(win=win, pos=card_pos, color='white')
-
-# Create the flip button
-flip_button = visual.Rect(win=win, width=button_width, height=button_height, fillColor='blue', lineColor='blue',
-                          pos=flip_button_pos)
-flip_label = visual.TextStim(win=win, text="flip", pos=flip_button_pos, color='white')
-
-start_button = visual.Rect(win=win, width=button_width, height=button_height, fillColor='blue', lineColor='blue',
-                           pos=flip_button_pos)
-start_label = visual.TextStim(win=win, text="Start", pos=flip_button_pos, color='white')
-
-# Create the don't flip button
-dont_flip_button = visual.Rect(win=win, width=button_width, height=button_height, fillColor='blue', lineColor='blue',
-                               pos=dont_flip_button_pos)
-dont_flip_label = visual.TextStim(win=win, text="don't flip", pos=dont_flip_button_pos, color='white')
-
-testtext = visual.TextStim(win=win, text="test", pos=(0, 0), color='black')
-testblock = ("testowy napis wprowadzający", ("testowa karta 0", "testowa karta 1", "testowa karta 2"))
-
-
-prompt_visual = visual.TextStim(win=win, text="", pos=(0, 0), color='black')
-# Create a mouse object to detect clicks
-mouse = event.Mouse(win=win)
 
 
 def getinfo():  # popup to get identifier
@@ -73,6 +27,66 @@ file.write("id,age,sex\n")
 file.write(f"{dane[0]},{dane[1]},{dane[2]}\n")
 file.close()
 
+m1 = monitors.getAllMonitors()
+mon = monitors.Monitor(m1[0])  # Adjust the monitor name as needed
+screen_size = mon.getSizePix()
+
+# Create a window
+win = visual.Window(
+    size=screen_size,
+    fullscr=True,
+    screen=0,
+    monitor="testMonitor",  # Use the retrieved monitor
+    color=[1, 1, 1],  # Background color (black in this case)
+    units="height"  # Use pixel units
+)
+
+colors = ["blue", "green", "red"]
+
+# Define button dimensions and positions
+button_width = 0.2
+button_height = 0.1
+spacing = 0.04
+
+# Define card dimensions and position
+card_width = 0.8
+card_height = 0.6
+card_pos = (0, 0)
+
+# Calculate the positions for the buttons in the bottom right corner
+flip_button_pos = (0.5 - button_width / 2 - spacing, -0.5 + button_height / 2 + spacing)
+dont_flip_button_pos = (0.5 - 1.5 * button_width - 2 * spacing, -0.5 + button_height / 2 + spacing)
+
+# Create the card
+card = visual.Rect(win=win, width=card_width, height=card_height, fillColor=colors[0], lineColor=colors[0],
+                   pos=card_pos)
+cardlabel = visual.TextStim(win=win, pos=card_pos, color='white', height=0.05)
+
+# Create the flip button
+flip_button = visual.Rect(win=win, width=button_width, height=button_height, fillColor='blue', lineColor='blue',
+                          pos=flip_button_pos)
+flip_label = visual.TextStim(win=win, text="Odwroc", pos=flip_button_pos, color='white', height=0.02)
+
+start_button = visual.Rect(win=win, width=button_width, height=button_height, fillColor='blue', lineColor='blue',
+                           pos=flip_button_pos)
+start_label = visual.TextStim(win=win, text="Start", pos=flip_button_pos, color='white', height=0.02)
+
+next_button = visual.Rect(win=win, width=button_width, height=button_height, fillColor='blue', lineColor='blue',
+                           pos=flip_button_pos)
+next_label = visual.TextStim(win=win, text="Next", pos=flip_button_pos, color='white', height=0.02)
+
+# Create the don't flip button
+dont_flip_button = visual.Rect(win=win, width=button_width, height=button_height, fillColor='blue', lineColor='blue',
+                               pos=dont_flip_button_pos)
+dont_flip_label = visual.TextStim(win=win, text="Nie odwracaj", pos=dont_flip_button_pos, color='white', height=0.02)
+
+testtext = visual.TextStim(win=win, text="test", pos=(0, 0), color='black')
+testblock = ("testowy napis wprowadzający", ("testowa karta 0", "testowa karta 1", "testowa karta 2"))
+
+prompt_visual = visual.TextStim(win=win, text="", pos=(0, 0), color='black', height=0.075)
+# Create a mouse object to detect clicks
+mouse = event.Mouse(win=win)
+
 
 # Function to draw the card
 def draw_card(text):
@@ -82,8 +96,9 @@ def draw_card(text):
     card.draw()
     cardlabel.draw()
 
+
 # Create the space prompt
-space_prompt = visual.TextStim(win=win, text="Press space to continue", pos=(0, -200), color='black')
+space_prompt = visual.TextStim(win=win, text="Wcisnij spacje by kontynuowac", pos=(0, -0.4), color='black', height=0.06)
 
 
 # Function to draw the buttons and labels
@@ -225,31 +240,43 @@ def chooseCardset(m, n):
     os.remove("temp.txt")
 
 
-def display_intro():
+def display_intro(pth):
     # Open the intro.txt file and read the introduction text
-    introfile = open("intro.txt", "r")
+    introfile = open(pth, "r")
     introtext = introfile.read().strip()
     introfile.close()
 
     # Display the introduction text
-    introvisual = visual.TextStim(win=win, text=introtext, pos=(0, 0), color='black')
+    introvisual = visual.TextStim(win=win, text=introtext, pos=(0, 0), color='black', height=0.025)
     introvisual.draw()
-    start_button.draw()
-    start_label.draw()
+
+    # Check which file is being displayed and show the appropriate button
+    if pth == "intro_eksperyment_1.txt":
+        next_button.draw()
+        next_label.draw()
+    else:
+        start_button.draw()
+        start_label.draw()
+
     win.flip()
 
     # Wait for a button press
     while True:
-        if mouse.isPressedIn(start_button):
+        if pth == "intro_eksperyment_1.txt" and mouse.isPressedIn(next_button):
+            while mouse.isPressedIn(next_button):
+                pass
+            break
+        elif mouse.isPressedIn(start_button):
             while mouse.isPressedIn(start_button):
                 pass
             break
 
 
-display_intro()
+display_intro("intro.txt")
 # Main loop
 cardset("testcards")
-
+display_intro("intro_eksperyment_1.txt")
+display_intro("intro_eksperyment_2.txt")
 chooseCardset(1, 14)
 chooseCardset(15, 29)
 chooseCardset(30, 44)

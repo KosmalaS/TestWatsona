@@ -1,0 +1,71 @@
+cardText, flip, set
+Nie zauwazylem pozaru,d,11
+Nie oglaszam alarmu,f,11
+Oglaszam alarm,d,11
+Zauwazylem pozar,f,11
+Inicjuje ewakuacje,d,11
+Ide po prawej stronie drogi,f,12
+Jest tylko pobocze,f,12
+Ide po lewej stronie drogi,d,12
+Jest chodnik,d,12
+Nie ma chodnika,f,12
+Jest zimno,f,7
+Jest cieplo,d,7
+Ubralem kurtke,d,7
+Ubralem sie lekko,f,7
+Nie ubralem kurtki,f,7
+Chodzenie,d,3
+Bieganie,d,3
+Uprzaz,d,3
+Wspinaczka,f,3
+Brak uprzezy,f,3
+Nie wymieniam zarowki,d,8
+sprawdzam napiecie,d,8
+Nie sprawdzam czy jest prad,f,8
+Sprawdzam czy jest prad,d,8
+Wymieniam zarowke,f,8
+Nie rozmawiam przez telefon,d,10
+Jestem pasazerem,d,10
+Jade samochodem,f,10
+Rozmawiam przez telefon,f,10
+Nie jade samochodem,d,10
+Siedze pod drzewem,f,14
+Jest burza,f,14
+Siedze w domu,d,14
+Nie ma burzy,d,14
+Siedze na przystanku autobusowym,d,14
+Jem kanapke,d,5
+Nie sprawdzam temperatury,f,5
+Sprawdzam temperature,d,5
+Jem zupe,f,5
+jem jablko,d,5
+Stoje na brzegu,d,4
+Nie sprawdzam glebokosci,f,4
+Nie wskakuje,d,4
+Wskakuje,f,4
+Sprawdzam glebokosc,d,4
+Pracuje w halasie,f,13
+Pracuje w ciszy,d,13
+Mam zalozone sluchawki,d,13
+Pracuje w spokojnym biurze,d,13
+Nie mam zalozonych sluchawek,f,13
+Kask,d,1
+Sklep,d,1
+Park,d,1
+Brak Kasku,f,1
+Plac budowy,f,1
+Czerwone,f,2
+Stoje w miejscu,d,2
+Zielone,d,2
+Nie przechodze,d,2
+Przechodze,f,2
+Pada deszcz,d,6
+Smaruje sie kremem,d,6
+Nie smaruje sie kremem,f,6
+Jest pochmurnie,d,6
+Jest slonecznie,f,6
+Nie ma zacmienia slonca,d,9
+Jest zacmienie slonca,f,9
+Nie zakladam okularow ochronnych,f,9
+Jest noc,d,9
+Zakladam okulary ochronne,d,9

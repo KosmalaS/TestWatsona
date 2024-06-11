@@ -1,0 +1,5 @@
+Czesc eksperymentalna sklada sie z trzech sekcji.
+W kazdej sekcji zostanie Ci zaprezentowane 15 zestawow po 5 kart.
+Na poczatku kazdego zestawu zostanie ci zaprezentowany scenariusz z pewnymi zasadami - nacisnij spacje, gdy zapoznasz sie z nimi.
+Karty zostana wyswietlone jedna po drugiej w losowej kolejnosci.
+Na kazda karte masz czas 4 sekundy na udzielenie odpowiedzi. Kliknij lewym przyciskiem myszy wyswietlony przycisk "odwroc" lub "nie odwracaj". Po tym czasie lub po Twojej odpowiedzi, nastapi ekran czekania - wcisnij spacje, gdy bedziesz gotowy przejsc do kolejnej karty.
