@@ -106,6 +106,7 @@ def cardset(tfile):
     textlist = textfile.readlines()[1:]
     textfile.close()
     textlist = [line.strip().split(',') for line in textlist]
+    print(textlist)
 
     # Open the prompts.txt file and read the prompts
     with open("prompts.txt", "r") as promptfile:
@@ -116,7 +117,7 @@ def cardset(tfile):
     # Only create a result file if tfile is not 'testcards'
     if tfile != 'testcards':
         os.makedirs(f'results/{dane[0]}', exist_ok=True)
-        resultfile = open(f"results/{dane[0]}/{dane[0]}_result.txt", "w")  # Changed here
+        resultfile = open(f"results/{dane[0]}/{dane[0]}_result.txt", "a")  # Changed here
     else:
         resultfile = None
 
@@ -188,7 +189,7 @@ def cardset(tfile):
         resultfile.close()
 
 
-def randomCardset(m, n):
+def chooseCardset(m, n):
     # Open the cards.txt file and read the cards
     with open("cards.txt", "r") as textfile:
         textlist = textfile.readlines()[1:]
@@ -202,11 +203,14 @@ def randomCardset(m, n):
             sets[card[2]] = []
         sets[card[2]].append(card)
 
-    # Randomly choose 5 sets and 4 cards from each set
-    chosen_sets = random.sample(list(sets.keys()), 5)
+    # Randomly choose all sets from m to n and shuffle them
+    chosen_sets = list(sets.keys())
+    random.shuffle(chosen_sets)
+
+    # For each set, randomly choose 5 cards
     chosen_cards = []
     for set in chosen_sets:
-        chosen_cards.extend(random.sample(sets[set], 4))
+        chosen_cards.extend(random.sample(sets[set], 5))
 
     # Create a temporary file and write the chosen cards
     with open("temp.txt", "w") as temp_file:
@@ -246,9 +250,9 @@ display_intro()
 # Main loop
 cardset("testcards")
 
-randomCardset(1, 14)
-randomCardset(15, 29)
-randomCardset(30, 44)
+chooseCardset(1, 14)
+chooseCardset(15, 29)
+chooseCardset(30, 44)
 
 # Close the window
 win.close()
