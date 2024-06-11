@@ -1,0 +1,177 @@
+cardText, flip, set
+Plac budowy,f,1
+Park,d,1
+Kask,d,1
+Brak Kasku,f,1
+Zielone,f,2
+Czerwone,d,2
+Przechodze,f,2
+Nie przechodze,f,2
+Wspinaczka,f,3
+Chodzenie,d,3
+Uprzaz,d,3
+Brak uprzezy,f,3
+Wskakuje,f,4
+Nie wskakuje,d,4
+Sprawdzam glebokosc,d,4
+Nie sprawdzam glebokosci,f,4
+Jem zupe,f,5
+Jem kanapke,d,5
+Sprawdzam temperature,d,5
+Nie sprawdzam temperatury,f,5
+Jest slonecznie,f,6
+Jest pochmurnie,d,6
+Smaruje sie kremem,d,6
+Nie smaruje sie kremem,f,6
+Jest zimno,f,7
+Jest cieplo,d,7
+Ubralem kurtke,d,7
+Nie ubralem kurtki,f,7
+Wymieniam zarowke,f,8
+Nie wymieniam zarowki,d,8
+Sprawdzam czy jest prad,d,8
+Nie sprawdzam czy jest prad,f,8
+Jest zacmienie slonca,f,9
+Nie ma zacmienia slonca,d,9
+Zakladam okulary ochronne,d,9
+Nie zakladam okularow ochronnych,f,9
+Jade samochodem,f,10
+Nie jade samochodem,d,10
+Rozmawiam przez telefon,f,10
+Nie rozmawiam przez telefon,d,10
+Zauwazylem pozar,f,11
+Nie zauwazylem pozaru,d,11
+Oglaszam alarm,d,11
+Nie oglaszam alarmu,f,11
+Jest chodnik,d,12
+Nie ma chodnika,f,12
+Ide po lewej stronie drogi,d,12
+Ide po prawej stronie drogi,f,12
+Pracuje w halasie,f,13
+Pracuje w ciszy,d,13
+Mam zalozone sluchawki,d,13
+Nie mam zalozonych sluchawek,f,13
+Jest burza,f,14
+Nie ma burzy,d,14
+Siedze pod drzewem,f,14
+Nie siedze pod drzewem,d,14
+Pije sok,d,15
+Pije piwo,f,15
+Mam 20 lat,d,15
+Mam 16 lat,f,15
+Jade pociagiem,f,16
+Nie jade pociagiem,d,16
+Mam bilet,d,16
+Nie mam biletu,f,16
+Ktos mowi,f,17
+Nikt nie mowi,d,17
+Odzywam sie,f,17
+Nie odzywam sie,d,17
+Stas zaprosil mnie na urodziny,f,18
+Stas nie zaprosil mnie na urodziny,d,18
+Zapraszam Stasia na urodziny,d,18
+Nie zapraszam Stasia na urodziny,f,18
+Kacper powiedzial mi cos w sekrecie,f,19
+Kacper powiedzial mi cos otwarcie,d,19
+Dziele sie historia z Basia,f,19
+Nie dziele sie historia z Basia,d,19
+Jestem w teatrze,f,20
+Nie jestem w teatrze,d,20
+Zachowuje cisze,d,20
+Glosno rozmawiam,f,20
+Zachowalem sie zle wobec Kasi,f,21
+Nie zachowalem sie zle wobec Kasi,d,21
+Przeprosilem Kasie,d,21
+Nie przeprosilem Kasi,f,21
+Pozyczylem ksiazke od Jana,f,22
+Nie pozyczylem nic od Jana,d,22
+Przekazuje ksiazke Janowi,d,22
+Nie przekazuje nic Janowi,f,22
+Nie odebralem od Pawla,f,23
+Odebralem od Pawla,d,23
+Dzwonie do Pawla,d,23
+Nie dzwonie do Pawla,f,23
+Ania mnie podwiozla,f,24
+Wracalem do domu sam,d,24
+Podwioze Anie,d,24
+Nie podwioze Ani,f,24
+Siedze w tramwaju,f,25
+Stoje w tramwaju,d,25
+W tramwaju jest starsza osoba,d,25
+W tramwaju nie ma starszych osob,f,25
+Zostawiam napiwek,d,26
+Nie zostawiam napiwku,f,26
+Kelner dobrze mnie obsluzyl,d,26
+Kelner zle mnie obsluzyl,f,26
+Jestem na miejscu o 10,f,27
+Jestem na miejscu o 12,d,27
+Umowilem sie na 10,d,27
+Nie umowilem sie na 10,f,27
+Mam swoja kurtke,d,28
+Mam kurtke Wiktora,f,28
+Daje kurtke Wiktorowi,d,28
+Nie daje kurtki Wiktorowi,f,28
+Wchodze do autobusu,f,29
+Wysiadam z autobusu,d,29
+Przepuszczam innych,d,29
+Nie przepuszczam innych,f,29
+mam niebieska koszule,f,30
+mam czerwona koszule,d,30
+Ide po lewej stronie drogi,f,30
+Ide po prawej stronie drogi,d,30
+Mam czerwone buty,f,31
+Mam zolte buty,d,31
+Siedze przy oknie,d,31
+Siedze przy korytarzu,f,31
+Jest sroda,f,32
+Jest sobota,d,32
+Mam kapelusz,d,32
+Nie mam kapelusza,f,32
+Mam zielony plecak,f,33
+Mam czarny plecak,d,33
+Pije kawe z filizanki,d,33
+Pije kawe z termosu,f,33
+Mam krecone wlosy,f,34
+Mam proste wlosy,d,34
+Witam sie prawa reka,f,34
+Witam sie lewa reka,d,34
+Mam zegarek na lewej rece,f,35
+Mam zegarek na prawej rece,d,35
+Mam naszyjnik,d,35
+Nie mam naszyjnika,f,35
+Mam niebieskie oczy,f,36
+Mam brazowe oczy,d,36
+Pisze niebieskim dlugopisem,d,36
+Pisze czarnym dlugopisem,f,36
+Mam jeansy,f,37
+Mam spodnie dresowe,d,37
+Pije sok pomaranczowy,d,37
+Pije herbate,f,37
+Moj samochod jest srebrny,f,38
+Moj samochod jest fioletowy,d,38
+Parkuje tylem,d,38
+Parkuje przodem,f,38
+Mam na imie Jaroslaw,f,39
+Mam na imie Jan,d,39
+Ide wieczorem na spacer,d,39
+Nie ide wieczorem na spacer,f,39
+Mieszkam na parterze,f,40
+Mieszkam na 3 pietrze,d,40
+Mam rosliny doniczkowe,d,40
+Nie mam roslin doniczkowych,f,40
+Mam urodziny w marcu,f,41
+Mam urodziny w maju,d,41
+Nosze szalik,d,41
+Nie nosze szalika,f,41
+Mam balkon,f,42
+Nie mam balkonu,d,42
+Myje okna w piatek,d,42
+Nie myje okien w piatek,f,42
+Mam psa,f,43
+Nie mam psa,d,43
+Pije kawe z mlekiem,d,43
+Pije kawe bez mleka,f,43
+Mam czarne wlosy,f,44
+Mam blond wlosy,d,44
+Ide po trawie,f,44
+Ide po chodniku,d,44

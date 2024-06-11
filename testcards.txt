@@ -1,0 +1,5 @@
+cardText, flip, set
+flip1,f,0
+flip2,f,0
+dont flip1,d,0
+dont flip2,d,0

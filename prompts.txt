@@ -1,0 +1,45 @@
+prompt,set
+Na placu budowy nalezy miec zalozony kask,1
+Przez przejscie dla pieszych nalezy przechodzic wylacznie na zielonym swietle,2
+Podczas wspinaczki nalezy byc przypietym na uprzezy,3
+Zanim skoczy sie do wody trzeba sprawdzic czy jest gleboka,4
+Zanim zacznie sie jesc zupe, trzeba sprawdzic czy nie jest zbyt goraca,5
+Przed wyjsciem na slonce trzeba nasmarowac sie kremem z filtrem,6
+Przed wyjsciem na zimno trzeba cieplo sie ubrac,7
+Przed wymienieniem zarowki trzeba upewnic sie ze nie jest pod pradem,8
+Przed ogladaniem zacmienia slonca trzeba zalozyc specjalne okulary,9
+Podczas jazdy samochodem nie mozna rozmawiac przez telefon,10
+Jezeli zauwazy sie pozar w budynku to powinno sie oglosic alarm i rozpoczac ewakuacje,11
+Jezeli nie ma chodnika to powinno sie chodzic poboczem po lewej stronie drogi,12
+Podczas pracy w halasliwym otoczeniu powinno sie zakladac ochronne sluchawki,13
+Podczas burzy nie powinno sie siadac pod samotnym drzewem,14
+Alkohol mozna pic tylko wtedy jesli ma sie ukonczone 18 lat,15
+Jesli jade pociagiem musze miec bilet,16
+Jezeli ktos inny mowi to nie powinienem mu przerywac,17
+Jesli ktos zaprosil mnie na swoja impreze urodzinowa to powinienem zaprosic go na moja,18
+Jesli ktos powie mi cos w sekrecie nie powinienem nikomu tego mowic,19
+Jesli jestem w teatrze powinienem zachowac cisze,20
+Jezeli zachowalem sie wobec kogos nie w porzadku powinienem go przeprosic,21
+Jesli pozycza sie cos od kogos powinno sie dac mu to z powrotem,22
+Jesli nie odbierze sie od kogos telefonu powinno sie do niego oddzwonic,23
+Jesli ktos podwiozl mnie do domu to nastepnym razem ja powinienem go podwiezc,24
+Jesli w tramwaju jest starsza osoba powinno sie ustapic jej miejsca,25
+Jesli kelner dobrze mnie obsluzyl powinienem zostawic napiwek,26
+Jesli umowilem sie z kims o 10 to powinienem byc wtedy na miejscu,27
+Jesli przez przypadek wzialem cudza kurtke powinienem mu ja oddac,28
+Jesli wchodze do autobusu powinienem najpierw przepuscic tych ktorzy wychodza,29
+Jesli masz niebieska koszule to musisz chodzic po prawej stronie drogi,30
+Jesli nosisz czerwone buty to powinienes siedziec przy oknie w samolocie,31
+Kapelusze mozna nosic tylko w srode,32
+Jesli posiadasz zielony plecak to powinienes pic kawe tylko z filizanki,33
+Jesli twoje wlosy sa krecone to musisz witac sie tylko lewa reka,34
+Jesli masz zegarek na lewej rece to musisz miec tez naszyjnik,35
+Jesli twoje oczy sa niebieskie to musisz uzywac niebieskiego dlugopisu,36
+Jesli masz na sobie jeansy to musisz pic sok pomaranczowy na sniadanie,37
+Jesli masz samochod w kolorze srebrnym to musisz parkowac tylem,38
+Jesli twoje imie ma wiecej niz 5 liter to musisz chodzic na spacery wieczorem,39
+Jesli twoje mieszkanie jest na parterze to musisz miec w domu rosliny doniczkowe,40
+Jesli twoje urodziny sa w marcu to musisz nosic szalik,41
+Jesli twoje mieszkanie ma balkon to musisz myc okna w kazdy piatek,42
+Jesli masz psa musisz pic kawe z mlekiem,43
+Jesli masz czarne wlosy to nie wolno ci chodzic po trawie,44
